@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- to make the choice and show the choices of the player and computer -->
+    <div class="container">
+      <div class="player">
+        <div>
+          <h1>Player</h1>
+        </div>
+        <div class="choice_button">
+          <button type="button" value="Rock" id="Rock" onclick="rock()">
+            Rock
+          </button>
+          <button type="button" value="Paper" id="Paper" onclick="paper()">
+            Paper
+          </button>
+          <button
+            type="button"
+            value="Scissor"
+            id="Scissor"
+            onclick="scissor()"
+          >
+            Scissor
+          </button>
+        </div>
+        <h3>Player Choice</h3>
+        <div class="result_div" id="result_div"></div>
+      </div>
+
+      <div class="computer">
+        <div>
+          <h1>Computer</h1>
+        </div>
+        <h3>Computer Choice</h3>
+        <div class="computer_choice"></div>
+      </div>
+    </div>
+    <!-- to make the choice and show the choices of the player and computer -->
+
+    <!-- winner div for displaying the winner  -->
+    <div class="winner_div">COMPUTER WON</div>
+    <!-- winner div for displaying the winner  -->
+
+    <!-- to display the score of the player and computer -->
+    <div class="counter_div">
+      <div>
+        <h1>player score</h1>
+        <div class="player_score">0</div>
+      </div>
+      <div>
+        <h1>computer score</h1>
+        <div class="computer_score">0</div>
+      </div>
+    </div>
+    <!-- to display the score of the player and computer -->
+    <script src="./script.js"></script>
+  </body>
+</html>

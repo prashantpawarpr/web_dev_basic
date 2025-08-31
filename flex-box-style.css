@@ -1,0 +1,48 @@
+.temp {
+  display: flex;
+  background-color: black;
+}
+.item1 {
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 10px;
+  height: 100px;
+  flex-basis: 100px;
+  padding: 10px;
+  /* flex-grow: 1; */
+  flex: 1;
+  margin: 10px;
+  order: 1;
+
+  /* width: 100px; */
+}
+.item2 {
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 10px;
+  height: 100px;
+  flex-basis: 100px;
+  padding: 10px;
+  margin: 10px;
+
+  /* flex-grow: 4; */
+  flex: 4;
+  order: 3;
+  /* width: 100px; */
+}
+
+.item3 {
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  margin: 10px;
+  height: 100px;
+  flex-basis: 100px;
+  padding: 10px;
+  margin: 10px;
+  flex: 2;
+  order: 2;
+
+  /* width: 100px; */
+}

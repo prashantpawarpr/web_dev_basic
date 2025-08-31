@@ -1,0 +1,113 @@
+* {
+  padding: o;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: yellow;
+}
+
+.container {
+  margin-top: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-itmes: center;
+  background-color: gray;
+}
+
+.player {
+  /* margin: 30px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.player div{
+  justify-content: center;
+  align-itmes:center;
+}
+
+.choice_button {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.choice_button > button {
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+  gap: 20px;
+}
+
+.result_div {
+  align-text:center;
+  color:black;
+  font-size:40px;
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+}
+
+.computer_choice {
+  justify-content: center;
+  align-itmes:center
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.winner_div{
+  display:flex;
+  justify-content:center;
+  align-itmes:center;
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.player_score{
+  width: 200px;
+  height: 50px;
+}
+
+.counter_div{
+
+display:flex;
+  justify-content:space-around;
+
+}
+
+@media screen and (max-width: 700px) {
+  .choice_button {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+ 
+@media screen and (max-width: 600px) {
+.container{
+    flex-direction:column;
+  }
+  .counter_div{
+   flex-direction:column; 
+  }
+}
